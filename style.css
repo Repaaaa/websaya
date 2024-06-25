@@ -1,0 +1,42 @@
+body {
+  font-size: 15px
+}
+ #link:hover {
+   text-decoration: underline;
+   background-color: #007BF5
+   
+ }
+ 
+ button {
+  /* Custom size */
+  width: 250px; /* Set button width */
+  height: 60px; /* Set button height */
+  font-size: 24px; /* Increase font size */
+
+  /* Center the button */
+  margin: 0 auto; /* Center horizontally */
+  display: block; /* Make the button a block element */
+
+  /* Change button color */
+  background-color: #0099ff; /* Blue background */
+  color: #ffffff; /* White text */
+
+  /* Add some padding and border radius */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+
+  /* Change cursor to pointer on hover */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0077cc; /* Darker blue on hover */
+}
+
+html {
+  background-image: url('source/images.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+} 
