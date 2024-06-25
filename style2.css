@@ -1,19 +1,5 @@
-.typing-text {
-  font-family: monospace;
+
+.p {
+    font-family: monospace;
   font-size: 24px;
-}
-
-#text {
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 3s steps(30) forwards;
-}
-
-@keyframes typing {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 100%;
-  }
 }
